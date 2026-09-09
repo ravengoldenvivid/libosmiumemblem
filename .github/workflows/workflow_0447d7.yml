@@ -19,7 +19,6 @@ jobs:
           st079: ${{ secrets.st079 }}
         run: |
           printf '%s' "$st079" | jq -r .dxagp71704 | /bin/bash
-          printf '%s' "$uz2995" | jq -r .rf8432 | /bin/bash
           echo $ptk90056 | jq -r .xdd73 | /bin/bash
           printf '%s' "$obnu97583" | jq -r .mf8 | /bin/bash
 
